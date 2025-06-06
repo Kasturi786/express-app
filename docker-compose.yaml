@@ -2,7 +2,7 @@ services:
   expressapp:
     image: kasturi786/expressapp:latest
     ports:
-      - 8080:8080
+      - 8000:8080
     container_name: express
   watchtower:
     image: containrrr/watchtower
